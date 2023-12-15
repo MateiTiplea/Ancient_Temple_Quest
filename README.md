@@ -11,3 +11,11 @@
 - s-au folosit cateva asset-uri pentru a delimita anumite incaperi
 - modelare scari
 - modelare mana pentru VR 
+
+### W11
+- realizat un UI ce serveste drept start menu pentru jocul nostru; acesta are si cateva functionalitati:
+  - un buton de Start ce face o tranzitie spre scena jocului in sine
+  - un buton de Options pe care daca apasam ne va duce la o fereastra unde momentan putem schimba doar volumul
+  - un buton About, care va afisa un mic text cu numele autorilor
+  - un buton Quit, care inchide aplicatia
+- modelarea unei usi care va servi drept punct de sfarsit al jocului nostru
