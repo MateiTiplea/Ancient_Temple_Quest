@@ -19,3 +19,10 @@
   - un buton About, care va afisa un mic text cu numele autorilor
   - un buton Quit, care inchide aplicatia
 - modelarea unei usi care va servi drept punct de sfarsit al jocului nostru
+
+### W12
+- XR Rig
+- modelat puzzle cu pietre cu hieroglife
+- modelat o legenda cu fiecare hieroglifa care se afla in starting room
+- modelat un labirint in care va fi una dintre pietre
+- am pus tavanul si alte decoratiuni prin camere + am remodelat camera de start
