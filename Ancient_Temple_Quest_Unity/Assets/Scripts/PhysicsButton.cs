@@ -23,6 +23,8 @@ public class PhysicsButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isPressed)
+            Pressed();
         if (!isPressed && GetValue() + threshold >= 1)
             Pressed();
         if (isPressed && GetValue() - threshold <= 0)
