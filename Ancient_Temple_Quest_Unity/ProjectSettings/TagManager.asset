@@ -7,6 +7,13 @@ TagManager:
   - CinemachineTarget
   - floor
   - ball
+  - letter_H
+  - letter_R
+  - letter_S
+  - letter_Y
+  - letter_E
+  - letter_A
+  - letter_D
   layers:
   - Default
   - TransparentFX
