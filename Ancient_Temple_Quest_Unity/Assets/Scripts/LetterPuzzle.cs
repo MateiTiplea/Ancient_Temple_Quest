@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 public class LetterPuzzle : MonoBehaviour
 {
     public List<XRSocketInteractor> dropZones;
     private const string CorrectWord = "HEAD";
+    public EventTrigger.TriggerEvent customCallback;
 
     public void CheckPieces()
     {
@@ -21,7 +24,11 @@ public class LetterPuzzle : MonoBehaviour
             var letter = pieceTag.Split('_')[1];
             word += letter;
         }
-        if (word == CorrectWord) Debug.Log("Correct!");
+
+        if (word == CorrectWord)
+        {
+            customCallback.Invoke(new BaseEventData(EventSystem.current));
+        }
     }
     
     
